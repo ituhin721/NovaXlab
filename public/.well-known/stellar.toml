@@ -1,0 +1,39 @@
+VERSION="1.1"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GDZKXO3QK6NYKMOL4U6DZITMIK4JEHIM62B7RRJJM5RVC2RUIPS5T4VH",
+"GCOYU27ZMORSB2CBWGWJYFBAHHWHQZZ5CABVKEL6YE4EGRWD62CK4YFS",
+]
+
+[DOCUMENTATION]
+ORG_NAME="NovaX Labs"
+ORG_URL="https://novaxlabs.vercel.app"
+ORG_LOGO="https://novaxlabs.vercel.app/novaxlabs.jpg"
+ORG_DESCRIPTION="NovaX Labs is a forward-thinking blockchain innovation hub focused on building secure, scalable, and user-centric solutions on the Stellar network. Our mission is to bridge traditional finance with decentralized technology, empowering individuals and institutions to take control of their digital assets and financial future."
+ORG_OFFICIAL_EMAIL="contact@novaxlabs.org"
+
+[[CURRENCIES]]
+code="NOVA"
+issuer="GDZKXO3QK6NYKMOL4U6DZITMIK4JEHIM62B7RRJJM5RVC2RUIPS5T4VH"
+display_decimals=7
+desc="NOVA powers the NovaX ecosystem, enabling fee-less transactions, premium access, governance roles, and staking capabilities. With deflationary design and utility expansion plans, NOVA is our flagship asset."
+name="NovaToken"
+status="live"
+image="https://novaxlabs.vercel.app/novatoken.jpg"
+
+[[CURRENCIES]]
+code="LYRA"
+issuer="GDZKXO3QK6NYKMOL4U6DZITMIK4JEHIM62B7RRJJM5RVC2RUIPS5T4VH"
+display_decimals=7
+desc="LYRA is the governance token that empowers users to shape NovaX’s protocol through voting, proposals, and treasury decisions. It rewards participation and trust in our decentralized journey."
+name="LyraCoin"
+status="live"
+image="https://novaxlabs.vercel.app/lyracoin.jpg"
+
+[[PRINCIPALS]]
+email="contact@novaxlabs.org"
+twitter="novaxlabs"
+telegram="novaxlabs"
+github="novaxlabs"
